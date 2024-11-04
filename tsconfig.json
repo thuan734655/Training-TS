@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",                // Phiên bản ECMAScript mà code sẽ biên dịch sang
+    "module": "commonjs",           // Sử dụng module system CommonJS (phổ biến trong Node.js)
+    "rootDir": "./src",             // Thư mục chứa các file TypeScript
+    "outDir": "./dist",             // Thư mục chứa các file JavaScript sau khi biên dịch
+    "strict": true,                 // Kích hoạt các kiểm tra chặt chẽ
+    "esModuleInterop": true         // Hỗ trợ Import/Export ES6 module
+  },
+  "include": ["src"],               // Các file và thư mục sẽ được biên dịch
+  "exclude": ["node_modules"]       // Các file và thư mục sẽ không được biên dịch
+}
